@@ -3,7 +3,7 @@ Config = {}
 Config.RepeatTimeout = 2000
 Config.CallRepeats = 10
 Config.OpenPhone = 244
-Config.Language = 'he'
+Config.Language = 'en'
 
 -- Jobs
 Config.LawyersJob = 'lawyer'
