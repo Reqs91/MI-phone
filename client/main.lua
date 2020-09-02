@@ -156,8 +156,7 @@ end)
 
 RegisterCommand("phone", function()
 OpenPhone()
-  newPhoneProp()
-  --TriggerEvent("8bit_MI-phone:client:UpdateAll")
+newPhoneProp()
 end)
 
 function CalculateTimeToDisplay()
@@ -1926,6 +1925,6 @@ RegisterNUICallback('GetLangData', function(data, cb)
     cb({ table = Config.Languages, current = Config.Language })
 end)
 
-RegisterCommand('hh', function()
-    TriggerServerEvent("MI-phone:server:sendNewMail", { sender = "ff", subject = "ff", message = "gg"})
+RegisterCommand('test', function()
+    TriggerServerEvent("MI-phone:server:sendNewMail", { sender = "Test", subject = "Test", message = "Test"})
 end)
